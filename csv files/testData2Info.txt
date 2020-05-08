@@ -1,0 +1,89 @@
+#              ************************************											
+#              *****    GLOBAL ATTRIBUTES    ******											
+#              ************************************											
+#											
+#     PROJECT                         SPDF											
+#     DISCIPLINE                      Space Physics>Interplanetary Studies											
+#     SOURCE_NAME                     OMNI (1AU IP Data)>Merged 1 Hour Interplantary OMNI data in RTN system											
+#     DATA_TYPE                       COHO1HR>Definitive Hourly data from cohoweb											
+#     DESCRIPTOR                      merged magnetic field and plasma data from cohoweb											
+#     DATA_VERSION                    1											
+#     TITLE                           Near-Earth Heliosphere Data (OMNI)											
+#     TEXT                            Hourly averaged definitive multispacecraft interplanetary parameters data											
+#                                     The Heliographic Inertial (HGI) coordinates are Sun-centered and inertially                            											
+#                                      fixed with respect to an X-axis directed along the intersection line of the                           											
+#                                      ecliptic and solar equatorial  planes. The solar equator plane is inclined                            											
+#                                      at 7.25 degrees from the ecliptic. This direction was towards ecliptic longitude                      											
+#                                      of 74.367 degrees on 1 January 1900 at 1200 UT; because of precession of the                          											
+#                                      celestial equator	 this longitude increases by 1.4 degrees/century. The Z axis                        										
+#                                       is  directed perpendicular and northward from the solar equator	 and the Y-axis                      										
+#                                      completes the right-handed set. This system differs from the usual heliographic                       											
+#                                      coordinates (e.g. Carrington longitudes) which are fixed in the frame of the                          											
+#                                      rotating Sun.                                                                                         											
+#                                     The RTN system is fixed at a spacecraft (or the planet). The R axis is directed                        											
+#                                      radially away from the Sun	 the T axis is the cross product of the solar rotation                     										
+#                                      axis and the R axis	 and the N axis is the cross product of the R and T axes.                         										
+#                                       At zero heliographic latitude	 when the spacecraft is in the solar equatorial                        										
+#                                      plane	 the N and solar rotation axes are parallel.                                                    										
+#                                     Latitude and longitude angles of solar wind plasma flow are generally measured                         											
+#                                       from the radius vector away from the Sun. In all cases	 latitude angles are                          										
+#                                      positive for north-going flow.  The flow longitude angles have been treated                           											
+#                                      differently for the near-Earth data	 i.e. the OMNI	 and for the deep space                            									
+#                                      data. The flow is positive for the  near-Earth data when coming from the right                        											
+#                                      side of the Sun as viewed  from  the Earth	 i.e. flowing toward +Y from -X                            										
+#                                      GSE or opposite to the direction of planetary motion. On the other hand	 the                          										
+#                                      flow longitudes for the deep space spacecraft use the opposite sign convection	                       										
+#                                      i.e. positive for flow in the +T direction in the RTN system.                                         											
+#     MODS                            created July 2007;											
+#                                     conversion to ISTP/IACG CDFs via SKTEditor Feb 2000											
+#                                     Time tags in CDAWeb version were modified in March 2005 to use the											
+#                                     CDAWeb convention of having mid-average time tags rather than OMNI's											
+#                                     original convention of start-of-average time tags.											
+#     PI_NAME                         J.H. King	 N. Papatashvilli										
+#     PI_AFFILIATION                  AdnetSystems	 NASA GSFC										
+#     GENERATION_DATE                 Ongoing											
+#     ACKNOWLEDGEMENT                 NSSDC											
+#     ADID_REF                        NSSD0110											
+#     RULES_OF_USE                    Public											
+#     INSTRUMENT_TYPE                 Plasma and Solar Wind											
+#                                     Magnetic Fields (space)											
+#     GENERATED_BY                    King/Papatashvilli											
+#     TIME_RESOLUTION                 1 hour											
+#     LOGICAL_FILE_ID                 omni_coho1hr_merged_mag_plasma_00000000_v01											
+#     LOGICAL_SOURCE                  omni_coho1hr_merged_mag_plasma											
+#     LOGICAL_SOURCE_DESCRIPTION      OMNI Combined merged hourly magnetic field	 plasma and ephermis data										
+#     LINK_TEXT                       COHO dataset											
+#                                     Additional analysis tools for these data from the											
+#     LINK_TITLE                      Documentation											
+#                                     COHOWeb service											
+#     HTTP_LINK                       http://cohoweb.gsfc.nasa.gov/html/cw_data.html											
+#                                     http://cohoweb.gsfc.nasa.gov											
+#     ALT_LOGICAL_SOURCE              Combined_OMNI_1AU-MagneticField-Plasma-Particles_mrg1hr_1hour_cdf											
+#     MISSION_GROUP                   OMNI (Combined 1AU IP Data; Magnetic and Solar Indices)											
+#                                     ACE											
+#                                     Wind											
+#                                     IMP (All)											
+#                                     !___Interplanetary Data near 1 AU											
+#     SPASE_DATASETRESOURCEID         spase://VSPO/NumericalData/OMNI/COHO/MergedMagPlasma/PT1H											
+#     CDFMAJOR                        COL_MAJOR											
+#											
+#              ************************************											
+#              ****  RECORD VARYING VARIABLES  ****											
+#              ************************************											
+#											
+#  1. Epoch Time											
+#  2. HelioGraphic Inertial (HGI) latitude											
+#  3. HGI longitude											
+#  4. BR in RTN (Radial-Tangential-Normal) coordinate system											
+#  5. BT in RTN coordinate system											
+#  6. BN in RTN coordinate system											
+#  7. Field Magnitude Average |B  1/N SUM |B|											
+#  8. Bulk Flow Speed											
+#  9. Proton flow elevation angle / latitude (RTN)											
+# 10. Proton flow azimuth angle / longitude (RTN)											
+# 11. Ion Density											
+# 12. Temperature											
+#											
+#  					
+# Key Parameter and Survey data (labels K0	K1	K2) are preliminary browse data.			
+# Generated by CDAWeb on: Wed Oct 23 17:37:16 2019					
